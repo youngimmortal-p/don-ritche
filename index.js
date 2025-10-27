@@ -52,7 +52,7 @@ function renderProducts() {
     productCard.className = "bg-white shadow-md rounded-2xl p-4 flex flex-col items-center text-center hover:shadow-lg transition";
 
     productCard.innerHTML = `
-      <img src="${product.image}" alt="${product.name}" class="rounded-xl mb-4">
+      <img src="${product.image}" alt="${product.name}" class="h-full rounded-xl mb-4">
       <h2 class="text-lg font-semibold">${product.name}</h2>
       <p class="text-gray-600 mb-2">₦${product.price.toLocaleString()}</p>
       <button class="add-to-cart bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition"
